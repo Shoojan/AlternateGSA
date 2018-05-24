@@ -23,13 +23,13 @@ public class HibernateConfig {
     private final static String DATABASE_USERNAME= "sa";
     private final static String DATABASE_PASSWORD= "";*/
 
-    private final static String DATABASE_URL = "jdbc:mysql://localhost:3306/alternate_gsa_json";
-//    private final static String DATABASE_URL = "jdbc:mysql://138.197.105.156:3306/alternate_gsa_json";
+//    private final static String DATABASE_URL = "jdbc:mysql://localhost:3306/alternate_gsa_json";
+    private final static String DATABASE_URL = "jdbc:mysql://138.197.105.156:3306/alternate_gsa_json";
     private final static String DATABASE_DRIVER	= "com.mysql.jdbc.Driver";
     private final static String DATABASE_DIALECT = "org.hibernate.dialect.MySQLDialect";
     private final static String DATABASE_USERNAME= "root";
-    private final static String DATABASE_PASSWORD= "12345";
-//    private final static String DATABASE_PASSWORD= "MegaPrime@1992";
+//    private final static String DATABASE_PASSWORD= "12345";
+    private final static String DATABASE_PASSWORD= "MegaPrime@1992";
 
 
     //dataSource bean will be available

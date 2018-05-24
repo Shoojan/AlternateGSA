@@ -22,7 +22,7 @@ public class alternate_gsa_dataDAOImpl implements alternate_gsa_dataDAO {
     public List<alternate_gsa_data> listAllGSAData() {
         return sessionFactory
                 .getCurrentSession()
-                .createQuery("FROM alternate_gsa_data", alternate_gsa_data.class)
+                .createQuery("FROM alternate_gsa_data", alternate_gsa_data.class).setFirstResult(0).setMaxResults(1000)
                 .getResultList();
     }
 
